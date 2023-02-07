@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/JavaBasics/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,23 +48,36 @@
       <recent name="C:\Users\Mario\IdeaProjects\DevelhopeWork\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumbersOperations.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics.Main" />
+  <component name="RunManager" selected="Application.JavaBasics._6.Main">
+    <configuration name="JavaBasics.NumbersOperations.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasics.NumbersOperations.Main" />
       <module name="DevelhopeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaBasics.NumbersOperations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumbersOperations.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumbersOperations.Main" />
+    <configuration name="JavaBasics._6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasics._6.Main" />
       <module name="DevelhopeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NumbersOperations.*" />
+          <option name="PATTERN" value="JavaBasics._6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasics.Main" />
+      <module name="DevelhopeWork" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,7 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumbersOperations.Main" />
+        <item itemvalue="Application.JavaBasics._6.Main" />
+        <item itemvalue="Application.JavaBasics.NumbersOperations.Main" />
         <item itemvalue="Application.variabli_commenti_ecc.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.variabili_commenti_ecc.Main" />
