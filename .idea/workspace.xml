@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/_9/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaBasics/_10/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,13 +48,13 @@
       <recent name="C:\Users\Mario\IdeaProjects\DevelhopeWork\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="JavaBasics.NumbersOperations.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics.NumbersOperations.Main" />
+  <component name="RunManager" selected="Application.JavaBasics._6.Main">
+    <configuration name="JavaBasics._10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasics._10.Main" />
       <module name="DevelhopeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaBasics.NumbersOperations.*" />
+          <option name="PATTERN" value="JavaBasics._10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaBasics._6.Main" />
+        <item itemvalue="Application.JavaBasics._10.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.JavaBasics._8.Main" />
         <item itemvalue="Application.JavaBasics._7.Main" />
-        <item itemvalue="Application.JavaBasics._6.Main" />
-        <item itemvalue="Application.JavaBasics.NumbersOperations.Main" />
       </list>
     </recent_temporary>
   </component>
