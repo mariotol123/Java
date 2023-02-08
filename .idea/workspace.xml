@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="" />
+    <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/JavaBasics/_3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +48,7 @@
       <recent name="C:\Users\Mario\IdeaProjects\DevelhopeWork\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaBasics._2.Main">
+  <component name="RunManager" selected="Application.JavaBasics._3.Main">
     <configuration name="JavaBasics._10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaBasics._10.Main" />
       <module name="DevelhopeWork" />
@@ -85,6 +88,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaBasics._3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasics._3.Main" />
+      <module name="DevelhopeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaBasics._3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaBasics._6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaBasics._6.Main" />
       <module name="DevelhopeWork" />
@@ -98,26 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics._9.Main" />
-      <module name="DevelhopeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaBasics._9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaBasics._3.Main" />
         <item itemvalue="Application.JavaBasics._2.Main" />
         <item itemvalue="Application.JavaBasics._11.Main" />
         <item itemvalue="Application.JavaBasics._6.Main" />
         <item itemvalue="Application.JavaBasics._10.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
