@@ -82,6 +82,20 @@ public class Main {
         double ourTestScore = 8;
         double maxTestScore = 10;
         boolean isTestRetry = true;
+        
+        if(ourTestScore >= 9 !isTestRetry){
+            System.out.println('A')
+            } else if (ourTestScore >= 8 !isTestRetry){
+             System.out.println('B')
+            } else if (ourTestScore >= 7)
+            System.out.println('C')
+            } else if (ourTestScore >= 6){
+            System.out.println('D')
+        } else if (ourTestScore >= 5){
+        System.out.println('E')
+        } else if (ourTestScore >= 4){
+        System.out.println('F')
+        }
 
 
     }
