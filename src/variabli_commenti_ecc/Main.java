@@ -45,7 +45,7 @@ public class Main {
         // a variable was written
         boolean hasEatenLunch = false;
 
-        // Lunch price variable
+        // After checking we are checking the cost of the lunch
 
         double lunchCost = 5.99;
 
