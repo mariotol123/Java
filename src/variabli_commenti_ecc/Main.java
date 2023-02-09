@@ -42,7 +42,7 @@ public class Main {
      */
     private static void exercise3() {
         System.out.println("\nExercise 3:");
-        // a variable was written
+        // With a boolean we are checking if he ate lunch
         boolean hasEatenLunch = false;
 
         // After checking we are checking the cost of the lunch
