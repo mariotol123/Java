@@ -48,9 +48,12 @@ public class Main {
 
         int lunchPrice = 10;
         double lunch = 12.99;
+        
+        lunch = lunch / 2;
+        lunchPrice = lunchPrice / 2;
 
-        System.out.println(lunchPrice / 2);
-        System.out.println(lunch / 2);
+        System.out.println(lunchPrice);
+        System.out.println(lunch);
     }
 
     /**
