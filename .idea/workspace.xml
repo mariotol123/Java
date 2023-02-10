@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/_3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaBasics/_10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/_10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumbersOperations/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumbersOperations/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variabli_commenti_ecc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/variabli_commenti_ecc/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,42 +34,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mario/Desktop/JAVA&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "C:/Users/Mario/Desktop/JAVA",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mario\IdeaProjects\DevelhopeWork\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaBasics._3.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="JavaBasics._10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaBasics._10.Main" />
       <module name="DevelhopeWork" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JavaBasics._10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaBasics._11.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics._11.Main" />
-      <module name="DevelhopeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaBasics._11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaBasics._6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics._6.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasics._12.Main" />
       <module name="DevelhopeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaBasics._6.*" />
+          <option name="PATTERN" value="JavaBasics._12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumbersOperations.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumbersOperations.Main" />
+      <module name="DevelhopeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NumbersOperations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.NumbersOperations.Main" />
+        <item itemvalue="Application.JavaBasics._10.Main" />
         <item itemvalue="Application.JavaBasics._3.Main" />
         <item itemvalue="Application.JavaBasics._2.Main" />
-        <item itemvalue="Application.JavaBasics._11.Main" />
-        <item itemvalue="Application.JavaBasics._6.Main" />
-        <item itemvalue="Application.JavaBasics._10.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +169,10 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaBasic$variabli_commenti_ecc_Main.ic" NAME="variabli_commenti_ecc.Main Coverage Results" MODIFIED="1675718775902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

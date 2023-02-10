@@ -43,14 +43,25 @@ public class Main {
         System.out.println("\nExercise 2:");
         int age = 30;
         int week = 2;
-        System.out.println(age * 2);
-        System.out.println(week * 2);
+
+        age = age * 2;
+        week = week * 2;
+
+
+        System.out.println(age);
+        System.out.println(week);
 
         int lunchPrice = 10;
         double lunch = 12.99;
 
-        System.out.println(lunchPrice / 2);
-        System.out.println(lunch / 2);
+        lunch= lunch / 2;
+
+        lunchPrice = lunchPrice / 2;
+
+
+
+        System.out.println(lunchPrice);
+        System.out.println(lunch);
     }
 
     /**

@@ -53,7 +53,7 @@ public class Main {
 
 
 
-        int age = 30;
+        int age = 19;
         boolean ageComeIn = age > 18;
         double eurosInPocket = 11;
         double eurosForEntry = 10;
