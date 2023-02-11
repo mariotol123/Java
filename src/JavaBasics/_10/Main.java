@@ -1,6 +1,5 @@
 package JavaBasics._10;
 
-
 public class Main {
     public static void main(String[] args) {
         exercise1();
@@ -31,9 +30,10 @@ public class Main {
         boolean isWarm = temperatureInCelsius >= isWarmTemperatureInCelsius;
         boolean wearingShorts = false;
 
-        if (isWarm && wearingShorts){
+        // Write your code here
+        if (isWarm && wearingShorts || !isWarm && !wearingShorts) {
             System.out.println("Comfortable clothes");
-        } else {
+        }else{
             System.out.println("Uncomfortable clothes");
         }
     }
@@ -53,15 +53,16 @@ public class Main {
 
 
 
-        int age = 19;
-        boolean ageComeIn = age > 18;
-        double eurosInPocket = 11;
+        int age = 30;
+        double eurosInPocket = 7.5;
         double eurosForEntry = 10;
-        boolean eurosInPocket2 = eurosInPocket > 10;
 
-        if (shoeType == "fancy" && (eurosInPocket2 && ageComeIn)){
+        // Write your code here
+        if(shoeType == "fancy" && age > 18 && eurosInPocket >= eurosForEntry){
             System.out.println("Come in");
-        } else System.out.println("Stay out");
+        }else{
+            System.out.println("Stay out");
+        }
     }
 
     /**
@@ -82,9 +83,19 @@ public class Main {
         double ourTestScore = 8;
         double maxTestScore = 10;
         boolean isTestRetry = true;
-
-
-
+        //Write your code here
+        if(ourTestScore >= 9 && !isTestRetry){
+            System.out.println('A');
+        }else if(ourTestScore >=8 && !isTestRetry){
+            System.out.println('B');
+        }else if(ourTestScore >=7 ) {
+            System.out.println('C');
+        }else if(ourTestScore >=6 ) {
+            System.out.println('D');
+        }else if(ourTestScore < 6) {
+            System.out.println('F');
+        }
+    }
 
 
     /**
@@ -97,13 +108,14 @@ public class Main {
      */
     private static void exercise4Bonus() {
         System.out.println("\nExercise 4 (Optional) - One way road:");
-        boolean carIsDrivingFromLeftToRight = false;
+        boolean carIsDrivingFromLeftToRight = true;
         boolean carIsDrivingFromRightToLeft = false;
 
+        //Write your code here
         if(carIsDrivingFromLeftToRight ^ carIsDrivingFromRightToLeft){
             System.out.println("Safe");
-        } else {
-            System.out.println("Crash");
+        }else{
+            System.out.println("CRASH!");
         }
     }
 }
