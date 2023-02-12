@@ -41,39 +41,17 @@ public class Main {
      */
     private static void exercise2() {
         System.out.println("\nExercise 2:");
-        int age = 30;
-        int week = 2;
-
-        age = age * 2;
-        week = week * 2;
-
-
-
-        
-        age = age * 2;
-        week = week * 2;
-        
-        
-
-        System.out.println(age);
-        System.out.println(week);
-
-        int lunchPrice = 10;
-        double lunch = 12.99;
-        
-        lunch = lunch / 2;
-        lunchPrice = lunchPrice / 2;
-
-
-        lunch= lunch / 2;
-
-        lunchPrice = lunchPrice / 2;
-
-
-
+        double lunchPrice = 4.99;
+        lunchPrice = lunchPrice * 2;
 
         System.out.println(lunchPrice);
-        System.out.println(lunch);
+
+        double brekfastLunch = 6.99;
+
+        brekfastLunch = brekfastLunch / 2;
+
+        System.out.println(brekfastLunch);
+
     }
 
     /**

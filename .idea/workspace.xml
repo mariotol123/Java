@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="" />
+    <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaBasics/_15/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/_15/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +48,7 @@
       <recent name="C:\Users\Mario\IdeaProjects\DevelhopeWork\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaBasics._14.Main">
+  <component name="RunManager" selected="Application.JavaBasics._5.Main">
     <configuration name="JavaBasics.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaBasics.Main" />
       <module name="DevelhopeWork" />
@@ -98,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics._12.Main" />
+    <configuration name="JavaBasics._5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaBasics._5.Main" />
       <module name="DevelhopeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaBasics._12.*" />
+          <option name="PATTERN" value="JavaBasics._5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaBasics._5.Main" />
         <item itemvalue="Application.JavaBasics._14.Main" />
         <item itemvalue="Application.JavaBasics._10.Main" />
         <item itemvalue="Application.JavaBasics._13.Main" />
         <item itemvalue="Application.JavaBasics.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
