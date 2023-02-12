@@ -19,21 +19,13 @@ public class Main {
         int orderCalories = 0;
 
         switch (fastFoodOrder) {
-            case "hamburger":
-                orderCalories = 700;
-                orderCost = 5.99;
-                break;
-            case "milkshake":
-                orderCalories = 600;
-                orderCost = 2.50;
-                break;
             case "cheeseburger":
-                orderCalories = 800;
-                orderCost = 3.50;
+                orderCalories = 850;
+                orderCost = 7.99;
                 break;
             case "fries":
-                orderCalories = 1000;
-                orderCost = 5.99;
+                orderCalories = 250;
+                orderCost = 3.99;
                 break;
             default:
                 System.out.println("Nothing");

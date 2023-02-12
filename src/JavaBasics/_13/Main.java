@@ -70,9 +70,9 @@ public class Main {
         menuPrices.add(10.99);
 
         System.out.println("The items is = " + menuItems.get(2) +" and its price is" + " " + menuPrices.get(2));
-        System.out.println("The items is = " + menuItems.get(0) +" and its price is" + " " + menuPrices.get(3));
+        System.out.println("The items is = " + menuItems.get(0) +" and its price is" + " " + menuPrices.get(0));
         System.out.println("The items is = " + menuItems.get(1) +" and its price is" + " " + menuPrices.get(1));
-        System.out.println("The items is = " + menuItems.get(3) +" and its price is" + " " + menuPrices.get(0));
+        System.out.println("The items is = " + menuItems.get(3) +" and its price is" + " " + menuPrices.get(3));
     }
 
     /**
