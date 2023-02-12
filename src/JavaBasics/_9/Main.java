@@ -61,16 +61,19 @@ public class Main {
      */
     private static void exercise3() {
         System.out.println("\nExercise 3:");
-        double ourDouble = 1.5;
+        double ourDouble = 3.5;
         double double2 = 2.5;
 
         if (ourDouble > double2){
-            System.out.println("Greater than  =" + double2);
-        } else if (ourDouble < double2){
-
-            System.out.println("Still less than = " + double2);
-            ourDouble = ourDouble + 1.0;
-            System.out.println("Now greater then = " + double2);
+            System.out.println("Greater than  = " + double2);
+        }
+        if (ourDouble < double2){
+            ourDouble += 1.0;
+            if (ourDouble < double2){
+                System.out.println("Still less than = " + double2);
+            } else {
+                System.out.println("Now greater than = " + double2);
+            }
         }
     }
 
