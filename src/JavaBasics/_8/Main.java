@@ -18,10 +18,17 @@ public class Main {
     private static void exercise1() {
         System.out.println("\nExercise 1:");
         String ourNumberStr = "88";
-        Integer ourNumberInt = Integer.valueOf(ourNumberStr);
-        int newNumber = ourNumberInt + 2;
+        Integer outNumberInt = Integer.valueOf(ourNumberStr);
 
-        System.out.println(newNumber);
+        outNumberInt += 2;
+
+        String ourNumberStringNew = String.valueOf(outNumberInt);
+
+        System.out.println(ourNumberStringNew);
+
+
+
+
     }
 
     /**
