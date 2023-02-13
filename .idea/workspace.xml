@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/_16/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/_17/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/_15/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/_15/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaBasics/_17/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/_17/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
       <recent name="C:\Users\Mario\IdeaProjects\DevelhopeWork\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.JavaBasics._17.Main">
     <configuration name="JavaBasics._15.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaBasics._15.Main" />
       <module name="DevelhopeWork" />
@@ -118,9 +116,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaBasics._17.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.JavaBasics._15.Main" />
-        <item itemvalue="Application.JavaBasics._17.Main" />
         <item itemvalue="Application.JavaBasics._9.Main" />
         <item itemvalue="Application.JavaBasics._8.Main" />
       </list>

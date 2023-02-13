@@ -1,5 +1,8 @@
 package JavaBasics._17;
 
+import java.time.LocalDate;
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
         exercise1();
@@ -12,7 +15,7 @@ public class Main {
      */
     private static void exercise1() {
         System.out.println("Exercise 1: ");
-        int myBankBalanceEuro = 500;
+        long myBankBalanceEuro = 500;
 
         String suspiciousEmailMessage =
                 """
@@ -24,11 +27,13 @@ public class Main {
                             Thanks
                 """;
 
-        long questionableFundsEuro = 5_000_000_000L;
+        long questionableFundsEuro = 5_000_000_000l;
 
         System.out.println(questionableFundsEuro);
 
         //Add the questionable funds to your bank balance and print it out!
+        myBankBalanceEuro = myBankBalanceEuro + questionableFundsEuro;
+        System.out.println(myBankBalanceEuro);
     }
 
     /**
@@ -42,12 +47,12 @@ public class Main {
      *    short = -32,768 to 32,768
      *    byte = -127 to 127
      *
-     *    2a: Someone's age : int, because
-     *    2b: The age of a baby in months
-     *    2c: Money in a hedge fund in euros
-     *    2d: Price of a good in euros on amazon.com
-     *    2e: The exact weight of an apple measured by scientific equipment
-     *    2f: The number of kilometers from any 2 places in the world
+     *    2a: Someone's age : int, perchè non sappiamo se l'età puo andare oltre il max value del byte
+     *    2b: The age of a baby in months byte perchè se consideriamo un anno solo arriveremo solo a un valore di 24
+     *    2c: Money in a hedge fund in euros long
+     *    2d: Price of a good in euros on amazon.com float perchè abbiamo bisogno di meno numeri decimali
+     *    2e: The exact weight of an apple measured by scientific equipment double perchè non sappiamo di quanti decimali abbiamo bisogno
+     *    2f: The number of kilometers from any 2 places in the world short perchè non credo ci sia un posto distante piu di 32,768 km
      */
 
     /**
@@ -64,7 +69,14 @@ public class Main {
      * create other days
      */
     public static void exercise3() {
+
+
         System.out.println("Exercise 3:");
+
+        LocalDate localDate = LocalDate.now();
+        System.out.println(localDate.getMonth());
+
+
     }
 }
 
