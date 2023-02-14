@@ -73,8 +73,8 @@ public class Main {
 
         System.out.println("Exercise 3:");
 
-        LocalDate localDate = LocalDate.now();
-        System.out.println(localDate.getMonth());
+        LocalDate myDate = LocalDate.now();
+        System.out.println(myDate.getMonth());
 
 
     }

@@ -54,7 +54,7 @@ public class Main {
      */
     private static void exercise2() {
         System.out.println("\nExercise 2:");
-        List<String> names = Arrays.asList("Alan   ", "Alice   ", "Ant0ni0   ", "  Aziz");
+        List<String> names = Arrays.asList("Alan   ", "Alice   ", "Ant2ni2   ", "  Aziz");
 
         for (String name : names) {
             // Call your function
@@ -69,9 +69,12 @@ public class Main {
 
         names = names.toUpperCase().trim();
 
-        if (names.contains("0")){
+        for (int i = 0; i < names.length(); i++){
+            char c = names.charAt(i);
 
-            return ("invalid");
+            if (Character.isDigit(c)){
+                return "invalid";
+            }
         }
 
         return names;
