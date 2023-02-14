@@ -1,5 +1,6 @@
 package JavaOOP.exercises1;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Course {
@@ -13,7 +14,7 @@ public class Course {
     String nameOfSchool;
 
 
-    List<student> Student;
+    List<student> Student =new  ArrayList<>();
 
     @Override
     public String toString() {

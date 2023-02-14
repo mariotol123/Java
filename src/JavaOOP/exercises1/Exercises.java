@@ -22,11 +22,10 @@ public class Exercises {
 
     /**
      * 2: use the class called 'Student', add variables
-     *    (class variables are called 'fields' or 'attributes')
-     *    called 'name' and 'age'
-     *
-     *    Using the function below set the student name and ages
-     *
+     * (class variables are called 'fields' or 'attributes')
+     * called 'name' and 'age'
+     * <p>
+     * Using the function below set the student name and ages
      */
     private static void exercise2() {
         System.out.println("Exercise 2:");
@@ -34,7 +33,7 @@ public class Exercises {
         List<Integer> studentAges = Arrays.asList(23, 31, 38);
 
         // Use a for i loop
-        for (int index = 0; index < studentNames.size(); index++ ){
+        for (int index = 0; index < studentNames.size(); index++) {
 
             System.out.println(createNewStudent(studentNames.get(index), studentAges.get(index)));
         }
@@ -70,33 +69,20 @@ public class Exercises {
         // Write your code here
         List<String> studentNames = Arrays.asList("Alice", "Aragon", "Alex");
         List<Integer> studentAges = Arrays.asList(23, 31, 38);
+        Course addCourse = new Course();
+
 
         double sum = 0;
 
-        for (int index = 0; index < studentNames.size(); index++ ){
+        for (int index = 0; index < studentNames.size(); index++) {
 
-            System.out.println(createNewStudentCourse(studentNames.get(index), studentAges.get(index)));
-            sum += studentAges.get(index);
+            System.out.println(createNewStudent(studentNames.get(index), studentAges.get(index)));
+            addCourse.Student.add(createNewStudent(studentNames.get(index), studentAges.get(index)));
+            sum += addCourse.Student.get(index).age;
         }
 
-        sum /= studentAges.size();
+        sum /= addCourse.Student.size();
         System.out.println(sum);
-    }
-
-
-
-
-
-    private static Course createNewStudentCourse(String name, Integer age) {
-
-        Course student = new Course();
-
-
-        student.courseName = name;
-        student.courseAge = age;
-
-
-        return student ;
     }
 }
 
