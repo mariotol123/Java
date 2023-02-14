@@ -1,4 +1,4 @@
-package JavaOOP;
+package JavaOOP.exercises1;
 
 import java.util.Arrays;
 import java.util.List;
@@ -34,9 +34,9 @@ public class Exercises {
         List<Integer> studentAges = Arrays.asList(23, 31, 38);
 
         // Use a for i loop
-        for (int index = 0; index < studentAges.size() && index < studentAges.size(); index++ ){
+        for (int index = 0; index < studentNames.size(); index++ ){
 
-            System.out.println("Hello, my name is : " + studentNames.get(index) + " " + "and i have : " + studentAges.get(index));
+            System.out.println(createNewStudent(studentNames.get(index), studentAges.get(index)));
         }
     }
 
@@ -45,7 +45,8 @@ public class Exercises {
         student student = new student();
 
         // Write your code here
-        student.student1();
+        student.name = name;
+        student.age = age;
 
         return student;
     }
@@ -67,7 +68,35 @@ public class Exercises {
         System.out.println("\nExercise 3:");
 
         // Write your code here
-        System.out.println(Course.class);
+        List<String> studentNames = Arrays.asList("Alice", "Aragon", "Alex");
+        List<Integer> studentAges = Arrays.asList(23, 31, 38);
+
+        double sum = 0;
+
+        for (int index = 0; index < studentNames.size(); index++ ){
+
+            System.out.println(createNewStudentCourse(studentNames.get(index), studentAges.get(index)));
+            sum += studentAges.get(index);
+        }
+
+        sum /= studentAges.size();
+        System.out.println(sum);
+    }
+
+
+
+
+
+    private static Course createNewStudentCourse(String name, Integer age) {
+
+        Course student = new Course();
+
+
+        student.courseName = name;
+        student.courseAge = age;
+
+
+        return student ;
     }
 }
 
