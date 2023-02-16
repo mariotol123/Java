@@ -1,6 +1,7 @@
 package JavaBasics._13;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,15 +25,13 @@ public class Main {
 
 
         //Write your code here
-        numbers.add(8);
-        numbers.add(9);
-        numbers.add(55);
-        numbers.add(67);
-        numbers.add(69);
-        numbers.add(77);
-        numbers.add(51);
-        numbers.add(1);
-        System.out.println(numbers.get(0));
+        Random numbersRandom = new Random();
+
+        for (int i = 0; i < 8; i++){
+          int next = numbersRandom.nextInt(8);
+          numbers.add(next);
+        }
+
 
         numbers.remove(0);
         numbers.remove(0);
