@@ -22,6 +22,8 @@ public class Student {
 
     public Student (){
 
+
+
     }
 
     @Override
@@ -32,4 +34,5 @@ public class Student {
                 '}';
     }
 }
+
 
