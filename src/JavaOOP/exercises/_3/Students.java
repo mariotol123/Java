@@ -1,6 +1,4 @@
-package JavaOOP.exercises1._3;
-
-import JavaOOP.exercises1._2.Student;
+package JavaOOP.exercises._3;
 
 public class Students {
     private String name;

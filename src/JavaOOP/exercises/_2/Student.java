@@ -1,4 +1,4 @@
-package JavaOOP.exercises1._2;
+package JavaOOP.exercises._2;
 
 public class Student {
     String name;

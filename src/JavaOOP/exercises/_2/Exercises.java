@@ -1,6 +1,4 @@
-package JavaOOP.exercises1._2;
-
-import JavaOOP.exercises1.student;
+package JavaOOP.exercises._2;
 
 import java.util.ArrayList;
 import java.util.Arrays;

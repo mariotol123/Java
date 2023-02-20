@@ -49,13 +49,13 @@
       <recent name="C:\Users\Mario\IdeaProjects\DevelhopeWork\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaOOP.exercises1._3.Exercises">
+  <component name="RunManager" selected="Application.JavaOOP.exercises._3.Exercises">
     <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaOOP.exercises1.Exercises" />
+      <option name="MAIN_CLASS_NAME" value="JavaOOP.exercises.Exercises" />
       <module name="DevelhopeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaOOP.exercises1.*" />
+          <option name="PATTERN" value="JavaOOP.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaOOP.exercises1._2.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaOOP.exercises1._2.Exercises" />
+    <configuration name="JavaOOP.exercises._2.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaOOP.exercises._2.Exercises" />
       <module name="DevelhopeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaOOP.exercises1._2.*" />
+          <option name="PATTERN" value="JavaOOP.exercises._2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaOOP.exercises1._3.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaOOP.exercises1._3.Exercises" />
+    <configuration name="JavaOOP.exercises._3.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaOOP.exercises._3.Exercises" />
       <module name="DevelhopeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaOOP.exercises1._3.*" />
+          <option name="PATTERN" value="JavaOOP.exercises._3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,8 +117,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaOOP.exercises1._3.Exercises" />
-        <item itemvalue="Application.JavaOOP.exercises1._2.Exercises" />
+        <item itemvalue="Application.JavaOOP.exercises._3.Exercises" />
+        <item itemvalue="Application.JavaOOP.exercises._2.Exercises" />
         <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.JavaBasics._13.Main" />
         <item itemvalue="Application.Main" />

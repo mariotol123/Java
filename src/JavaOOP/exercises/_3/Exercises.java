@@ -1,4 +1,4 @@
-package JavaOOP.exercises1._3;
+package JavaOOP.exercises._3;
 
 public class Exercises {
     public static void main(String[] args) {
