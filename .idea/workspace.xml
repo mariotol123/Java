@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaOOP/exercises1/_3/Exercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaOOP/exercises1/_3/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaOOP/exercises/_4/ExerciseLunch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaOOP/exercises/_4/Exercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,7 @@
       <recent name="C:\Users\Mario\IdeaProjects\DevelhopeWork\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaOOP.exercises._3.Exercises">
+  <component name="RunManager" selected="Application.JavaOOP.exercises._4.Exercises">
     <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaOOP.exercises.Exercises" />
       <module name="DevelhopeWork" />
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics._16.Main" />
+    <configuration name="JavaOOP.exercises._4.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaOOP.exercises._4.Exercises" />
       <module name="DevelhopeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaBasics._16.*" />
+          <option name="PATTERN" value="JavaOOP.exercises._4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaOOP.exercises._4.Exercises" />
         <item itemvalue="Application.JavaOOP.exercises._3.Exercises" />
         <item itemvalue="Application.JavaOOP.exercises._2.Exercises" />
         <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.JavaBasics._13.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
