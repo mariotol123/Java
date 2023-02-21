@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaOOP/exercises/_4/ExerciseLunch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaOOP/exercises/_4/Exercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,11 +47,11 @@
   </component>
   <component name="RunManager" selected="Application.JavaOOP.exercises._4.Exercises">
     <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaOOP.exercises.Exercises" />
+      <option name="MAIN_CLASS_NAME" value="JavaOOP.exercises._1.Exercises" />
       <module name="DevelhopeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaOOP.exercises.*" />
+          <option name="PATTERN" value="JavaOOP.exercises._1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
