@@ -74,7 +74,19 @@ public class Main {
         System.out.println("Exercise 3:");
 
         LocalDate myDate = LocalDate.now();
-        System.out.println(myDate.getMonth());
+        System.out.println("The day of the month is: " + myDate.getDayOfMonth());
+        System.out.println("The day of the week is : " + myDate.getDayOfWeek());
+        System.out.println("The day of the yeas is : " + myDate.getDayOfYear());
+        System.out.println("The month is : " + myDate.getMonth());
+        System.out.println("The mont value is : " + myDate.getMonthValue());
+
+        LocalDate myDate2 =LocalDate.of(2020, 9, 2);
+
+
+        boolean date = myDate == myDate2;
+        System.out.println(myDate.isBefore(myDate2));
+        System.out.println(myDate.isAfter(myDate2));
+
 
 
     }
