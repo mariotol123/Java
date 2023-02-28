@@ -1,10 +1,10 @@
 package JavaOOP.exercises._3;
 
 public class Students {
-    private String name;
+     private String name;
     private String surname;
     private Integer age;
-    private Double lunchPrice;
+    private double lunchPrice;
     private String favoriteColour;
 
     private Integer checkAge = 0;

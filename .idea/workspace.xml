@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExerciseByTutor/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExerciseByTutor/CharacterType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExerciseByTutor/Fight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExerciseByTutor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExerciseByTutor/Skill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExerciseByTutor/dragonball.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExerciseByTutor/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_1/Exercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaOOP/exercises/_3/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaOOP/exercises/_3/Students.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +40,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/Mario/Desktop/JavaBasic/src/ExerciseByTutor",
+    "last_opened_file_path": "C:/Users/Mario/Desktop/JavaBasic",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mario\Desktop\JavaBasic\src\ExerciseByTutor" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mario\IdeaProjects\DevelhopeWork\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExerciseByTutor.Main">
+  <component name="RunManager" selected="Application.Exercises">
     <configuration name="ExerciseByTutor.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExerciseByTutor.Main" />
       <module name="DevelhopeWork" />
@@ -68,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaOOP.exercises._2.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaOOP.exercises._2.Exercises" />
+    <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaOOPadvanced._1.Exercises" />
       <module name="DevelhopeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaOOP.exercises._2.*" />
+          <option name="PATTERN" value="JavaOOPadvanced._1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.ExerciseByTutor.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.JavaOOP.exercises._4.Exercises" />
         <item itemvalue="Application.JavaOOP.exercises._3.Exercises" />
-        <item itemvalue="Application.JavaOOP.exercises._2.Exercises" />
       </list>
     </recent_temporary>
   </component>
