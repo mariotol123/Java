@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_3/Exercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaOOPadvanced/_3/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_3/Exercises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
     "last_opened_file_path": "C:/Users/Mario/Desktop/JavaBasic",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -48,6 +48,8 @@
       <recent name="C:\Users\Mario\Desktop\JavaBasic\src\ExerciseByTutor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mario\Desktop\JavaBasic\src\ExerciseSimulationExamA" />
+      <recent name="C:\Users\Mario\Desktop\JavaBasic\src\ExerciseSimulationExam" />
       <recent name="C:\Users\Mario\IdeaProjects\DevelhopeWork\src" />
     </key>
   </component>
@@ -91,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaOOPadvanced._2.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaOOPadvanced._2.Exercises" />
+      <module name="DevelhopeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaOOPadvanced._2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaOOPadvanced._3.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaOOPadvanced._3.Exercises" />
       <module name="DevelhopeWork" />
@@ -104,26 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics._17.Main" />
-      <module name="DevelhopeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaBasics._17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.JavaOOPadvanced._3.Exercises" />
+        <item itemvalue="Application.JavaOOPadvanced._2.Exercises" />
         <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.JavaOOPadvanced._1._2.Exercises" />
         <item itemvalue="Application.ExerciseByTutor.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

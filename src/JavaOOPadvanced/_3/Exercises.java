@@ -41,16 +41,16 @@ public class Exercises {
         // Your code here
         List<String> list = Arrays.asList("apple", "banana", "apple", "orange", "kiwi", "banana");
         Set<String> set = Set.of("apple", "banana");
-         toSet(list);
-         toSet(set);
+        System.out.println(toSet(list));
+        System.out.println(toSet(set));
     }
 
-    private static void toSet(Collection<String> list) {
-        for (String printFruit : list){
-            System.out.println(printFruit);
-        }
+   private static Set<String> toSet(Collection<String> list) {
+        return new HashSet<>(list);
 
     }
+
+
 
     // Write your method for exercise 2 here
 
@@ -77,13 +77,12 @@ public class Exercises {
 
             if (count == null){
                 count = 0;
-                
             }
             wordCount.put(word, count + 1);
         }
 
-        for (Map.Entry<String, Integer> entry: wordCount.entrySet()){
-            System.out.println(entry.getKey() + ": " + entry.getValue());
+        for (Map.Entry<String, Integer> d: wordCount.entrySet()){
+            System.out.println(d.getKey() + ": " + d.getValue());
         }
 
 
