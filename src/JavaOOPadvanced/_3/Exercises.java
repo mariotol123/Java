@@ -114,13 +114,13 @@ public class Exercises {
      *    Answer:Uso maps perchè abbiamo la chiave che è lo studente e il valore che è il voto.
      *
      *    3 - You want to store the countries in the world in order of age
-     *    Answer: Uso l'arrayList perchè abbiamo bisogno di un ordine preciso.
+     *    Answer: TreeMap .
      *
      *    4 - You want to store the products available for purchase in an online store, along with their corresponding prices.
      *    Answer:Maps perchè abbiamo chiave e valore.
      *
      *    5 - You want to store the employees at a company in the order you added them
-     *    Answer:ArrayList perchè abbiamo bisogno di un ordine preciso.
+     *    Answer:LinkedSet perchè se possiamo scegliere tra set e list scegliamo set.
      *
      *    6 - You want to store the cities in a particular state, along with their populations.
      *    Answer:Maps chiave valore.
