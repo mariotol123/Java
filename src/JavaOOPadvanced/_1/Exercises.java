@@ -36,7 +36,7 @@ public class Exercises {
 
 
 
-        if (ourSet.containsAll(Set.of(1,  5, 2 ))) {
+        if (ourSet.containsAll(Set.of(1,5,2 ))) {
             System.out.println("1a. Set contains all numbers");
         } else {
             System.out.println("1a. Set does not contain all numbers");
