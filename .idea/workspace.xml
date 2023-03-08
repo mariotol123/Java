@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_6/Days.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_6/Exercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_6/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_6/Seasons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_6/TrafficLight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaOOPadvanced/_3/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_3/Exercises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaOOPadvanced/_5/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_5/Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydirectory/file.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +54,7 @@
       <recent name="C:\Users\Mario\IdeaProjects\DevelhopeWork\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercises">
+  <component name="RunManager" selected="Application.JavaOOPadvanced._5.Exercises">
     <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaOOPadvanced._6.Exercises" />
       <module name="DevelhopeWork" />
@@ -122,9 +116,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.JavaOOPadvanced._5.Exercises" />
         <item itemvalue="Application.JavaOOPadvanced._4.Exercises" />
+        <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.JavaOOPadvanced._3.Exercises" />
       </list>

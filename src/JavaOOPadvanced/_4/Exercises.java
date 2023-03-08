@@ -37,8 +37,6 @@ public class Exercises {
         try {
             Files.createFile(MY_PATH);
 
-
-
             // Your code here
            Files.writeString(MY_PATH, myString);
             System.out.println("Success");
@@ -60,8 +58,6 @@ public class Exercises {
         try {
             // Your code here
             System.out.println(Files.readString(MY_PATH));
-
-
         } catch (Exception exception) {
             System.err.println("There was an error!");
             exception.printStackTrace();
@@ -93,13 +89,6 @@ public class Exercises {
             for (int i = 0; i < MY_PATH.toFile().length(); i++){
                 System.out.println(i);
             }
-
-
-
-
-
-
-
         } catch (Exception exception) {
             System.err.println("There was an error!");
 
