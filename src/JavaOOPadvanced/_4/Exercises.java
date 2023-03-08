@@ -2,18 +2,18 @@ package JavaOOPadvanced._4;
 
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class Exercises {
 
     private static final Path MY_PATH = Paths.get("file.txt");
     private static final Path PATH_IN_A_FOLDER = Paths.get("mydirectory/file.txt");
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         exercise1();
         exercise2();
         exercise3();
@@ -72,23 +72,22 @@ public class Exercises {
      * 3:
      * Write a method that reads a file and print the number of lines in the file
      */
-    private static void exercise3() {
+    private static void exercise3() throws IOException {
         System.out.println("\nExercise 3: ");
         // Write code here to read the file and return the number of lines "\n", string.split
-        
+        List<String> lines = new ArrayList<String>(List.of(Files.readString(MY_PATH).split("\n")));
 
         try {
             // Your code here
-            //Files.readString(MY_PATH).split("\n");
+            int count = 0;
 
-            //String str1 = Files.readString(MY_PATH);
+            for (String line : lines ) {
+                count++;
 
-            //String substring [] = str1.split("\n");
-            Files.readString(MY_PATH).split("\n");
-
-            for (int i = 0; i < MY_PATH.toFile().length(); i++){
-                System.out.println(i);
             }
+            System.out.println(lines);
+            System.out.println(count);
+
         } catch (Exception exception) {
             System.err.println("There was an error!");
 
