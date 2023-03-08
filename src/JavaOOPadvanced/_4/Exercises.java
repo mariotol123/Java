@@ -107,19 +107,20 @@ public class Exercises {
         System.out.println("\nExercise 4: ");
         try {
             // Your code here
-          //Files.readString(MY_PATH);
+            // String myString = Files.readString(MY_PATH);
+            //StringTokenizer stringTokenizer1 = new StringTokenizer(myString);
 
-            //for (Path word : MY_PATH ) {
-              //  int counter = (int) MY_PATH.toFile().length();
-            //System.out.println(word + " " + counter++);
-            //}
+            //int tokensCount = stringTokenizer1.countTokens();
+            //System.out.println(String.valueOf(tokensCount));         //GOOGLE ,FUCK GREG
 
-            String myString = Files.readString(MY_PATH);
-            StringTokenizer stringTokenizer1 = new StringTokenizer(myString);
+            List<String> myString = new ArrayList<String>(List.of(Files.readString(MY_PATH).split(" ")));
 
-            int tokensCount = stringTokenizer1.countTokens();
-            System.out.println(String.valueOf(tokensCount));         //GOOGLE ,FUCK GREG
+            int count = 0;
+            for (String word : myString ) {
 
+                count++;
+            }
+            System.out.println(count);
             Files.delete(MY_PATH);
 
 
