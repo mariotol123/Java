@@ -114,7 +114,7 @@ public class Exercises {
      *    Answer:Uso maps perchè abbiamo la chiave che è lo studente e il valore che è il voto.
      *
      *    3 - You want to store the countries in the world in order of age
-     *    Answer: TreeMap .
+     *    Answer: TreeMap perchè lo mettiamo in ordine di età.
      *
      *    4 - You want to store the products available for purchase in an online store, along with their corresponding prices.
      *    Answer:Maps perchè abbiamo chiave e valore.
@@ -138,10 +138,10 @@ public class Exercises {
      *    Answer:Maps perchè abbiamo la chiave che è l'orario di partenza e il valore la destinazione.
      *
      *    11 - You want to store the articles on a news website, along with their titles and publication dates.
-     *    Answer:Set perchè magari abbiamo piu titoli uguali scritti nello stesso giorno.
+     *    Answer:List perchè magari abbiamo piu titoli uguali scritti nello stesso giorno.
      *
      *    12 - You want to store the songs in a music streaming service, along with their artists and album names.
-     *    Answer:Set perchè non abbiamo la certezza che lo stesso titolo dell'album non sia stato usato da piu artisti e sicuramente un artista non avra fatto solo un album.
+     *    Answer:List perchè non abbiamo la certezza che lo stesso titolo dell'album non sia stato usato da piu artisti e sicuramente un artista non avra fatto solo un album.
      */
 
 

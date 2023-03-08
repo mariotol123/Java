@@ -1,5 +1,11 @@
 package JavaOOPadvanced._5;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
 public class Exercises {
     public static void main(String[] args) {
         exercise1();
@@ -15,7 +21,12 @@ public class Exercises {
     private static void exercise1() {
         System.out.println("Exercise 1: ");
         // Your code here
-//        Files.createFile(Path.of("Test.txt"));
+        try{
+            Files.createFile(Path.of("Test.txt"));
+        } catch (Exception ioException){
+            ioException.printStackTrace();
+        }
+
     }
 
     /**
@@ -30,6 +41,11 @@ public class Exercises {
         // Your code here
 
         String userInputFileName = "test-file.txt";
+        try{
+            FileReader reader = new FileReader("test-file.txt");
+        } catch (FileNotFoundException e) {
+            System.out.println("File not be found");
+        }
     }
 
     /**
@@ -43,7 +59,13 @@ public class Exercises {
         System.out.println("\nExercise 3: ");
         // Your code here
 
-        Integer.parseInt("house");
+        try{
+            Integer.parseInt("house");
+        } catch (NumberFormatException numberFormatException){
+            System.out.println("The input was not a valid integer");
+        }
+
+
     }
 
     /**
@@ -62,9 +84,11 @@ public class Exercises {
 
         Double num1 = 10.0;
         String num2AsString = "0.0";
-        // try{
+         try{
         System.out.println(num1/Double.parseDouble(num2AsString));
-        //}
+        } catch (NumberFormatException numberFormatException){
+             System.out.println("Non puoi dividere un intero per una stringa");
+         }
         // Your catch blocks here
 
     }
