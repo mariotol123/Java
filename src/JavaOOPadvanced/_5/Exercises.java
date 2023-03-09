@@ -3,6 +3,7 @@ package JavaOOPadvanced._5;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
@@ -23,7 +24,7 @@ public class Exercises {
         // Your code here
         try{
             Files.createFile(Path.of("Test.txt"));
-        } catch (Exception ioException){
+        } catch (IOException ioException){
             ioException.printStackTrace();
         }
 
@@ -41,6 +42,8 @@ public class Exercises {
         // Your code here
 
         String userInputFileName = "test-file.txt";
+
+
         try{
             FileReader reader = new FileReader("test-file.txt");
         } catch (FileNotFoundException e) {
@@ -82,11 +85,11 @@ public class Exercises {
         System.out.println("\nExercise 4: ");
         // Your code here
 
-        Double num1 = 10.0;
+        int num1 = 10;
         String num2AsString = "se";
          try{
              double somma;
-             somma = num1/Double.parseDouble(num2AsString);
+             somma = num1/Integer.parseInt(num2AsString);
              System.out.println(somma);
         } catch (NumberFormatException numberFormatException){
              System.out.println("You cannot convert this string to a number format ");
