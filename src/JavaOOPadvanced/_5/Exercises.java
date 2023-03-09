@@ -83,11 +83,16 @@ public class Exercises {
         // Your code here
 
         Double num1 = 10.0;
-        String num2AsString = "0.0";
+        String num2AsString = "se";
          try{
-        System.out.println(num1/Double.parseDouble(num2AsString));
+             double somma;
+             somma = num1/Double.parseDouble(num2AsString);
+             System.out.println(somma);
         } catch (NumberFormatException numberFormatException){
-             System.out.println("Non puoi dividere un intero per una stringa");
+             System.out.println("You cannot convert this string to a number format ");
+
+         } catch (ArithmeticException arithmeticException){
+             System.out.println("U cant divide a number by 0");
          }
         // Your catch blocks here
 
