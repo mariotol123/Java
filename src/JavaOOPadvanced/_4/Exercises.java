@@ -35,6 +35,7 @@ public class Exercises {
                 """;
 
         try {
+            Files.deleteIfExists(MY_PATH);
             Files.createFile(MY_PATH);
 
             // Your code here

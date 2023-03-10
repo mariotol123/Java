@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaOOPadvanced/_4/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_4/Exercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaOOPadvanced/_5/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_5/Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaOOPadvanced/_6/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_6/Exercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaOOPadvanced/_6/Seasons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_6/Seasons.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +61,26 @@
       <recent name="C:\Users\Mario\IdeaProjects\DevelhopeWork\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaOOPadvanced._5.Exercises">
+  <component name="RunManager" selected="Application.Exercises">
     <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaOOPadvanced._6.Exercises" />
       <module name="DevelhopeWork" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JavaOOPadvanced._6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaOOPadvanced._4.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaOOPadvanced._4.Exercises" />
+      <module name="DevelhopeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaOOPadvanced._4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,22 +97,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.exercise1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DevelhopeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaOOPadvanced._7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JavaOOPadvanced._7" />
-      <option name="MAIN_CLASS_NAME" value="JavaOOPadvanced._7.CalculatorTest" />
-      <option name="METHOD_NAME" value="exercise1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaOOPadvanced._5.Exercises" />
         <item itemvalue="Application.Exercises" />
+        <item itemvalue="Application.JavaOOPadvanced._4.Exercises" />
+        <item itemvalue="Application.JavaOOPadvanced._5.Exercises" />
         <item itemvalue="JUnit.CalculatorTest.exercise2" />
         <item itemvalue="JUnit.CalculatorTest.exercise3" />
-        <item itemvalue="JUnit.CalculatorTest.exercise1" />
       </list>
     </recent_temporary>
   </component>

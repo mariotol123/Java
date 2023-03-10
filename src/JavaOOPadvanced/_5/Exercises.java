@@ -1,14 +1,16 @@
 package JavaOOPadvanced._5;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.nio.Buffer;
 import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
+import static JavaBasics._2.Main.exercise3;
+import static JavaOOP.exercises._4.Exercises.exercise4;
+
 public class Exercises {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         exercise1();
         exercise2();
         exercise3();
@@ -37,15 +39,13 @@ public class Exercises {
      *
      * In the catch block, print a message that informs the user that the file could not be found.
      */
-    private static void exercise2() {
+    private static void exercise2() throws IOException {
         System.out.println("\nExercise 2: ");
         // Your code here
 
         String userInputFileName = "test-file.txt";
-
-
         try{
-            FileReader reader = new FileReader("test-file.txt");
+                FileReader reader = new FileReader("test-file.txt");
         } catch (FileNotFoundException e) {
             System.out.println("File not be found");
         }

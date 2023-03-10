@@ -4,6 +4,7 @@ import java.time.DayOfWeek;
 
 import static JavaOOPadvanced._6.Days.MONDAY;
 import static JavaOOPadvanced._6.Days.SUNDAY;
+import static JavaOOPadvanced._6.Seasons.getSeasonsDate;
 
 public class Exercises {
     public static void main(String[] args) {
@@ -47,18 +48,10 @@ public class Exercises {
     private static void exercise2() {
         System.out.println("\nExercise 2: ");
         // Your code here
-        String monthOfTheSeasons = Seasons.SPRING.getMonth();
 
-        System.out.println(monthOfTheSeasons);
-
-        monthOfTheSeasons = Seasons.FALL.getMonth();
-        System.out.println(monthOfTheSeasons);
-
-        monthOfTheSeasons = Seasons.SUMMER.getMonth();
-        System.out.println(monthOfTheSeasons);
-
-        monthOfTheSeasons = Seasons.WINTER.getMonth();
-        System.out.println(monthOfTheSeasons);
+       for (Seasons season : Seasons.values()){
+           System.out.println(season + " " + "months: " + getSeasonsDate(season));
+       }
 
 
     }

@@ -1,18 +1,26 @@
 package JavaOOPadvanced._6;
 
 public enum Seasons {
-    SPRING("1 march - 31 may"),
-    SUMMER("1 june - 31 august"),
-    FALL("1 september - 31 autumn"),
-    WINTER("21 december - 20 march");
+    SPRING,
+    SUMMER,
+    FALL,
+    WINTER;
 
-    private String month;
-
-    Seasons(String month) {
-        this.month = month;
-    }
-
-    public String getMonth() {
-        return month;
+    public static String getSeasonsDate (Seasons season) {
+        switch (season) {
+            case SPRING:
+                return "March 20 - June 20";
+            case SUMMER:
+                return "June 21 - September 21";
+            case FALL:
+                return "September 22 - December 20";
+            case WINTER:
+                return "December 21 - March 19";
+            default:
+                return "";
+        }
     }
 }
+
+
+
