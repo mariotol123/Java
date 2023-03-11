@@ -106,25 +106,13 @@ public class Exercises {
         System.out.println("\nExercise 5: ");
         // Your code here
 
-        Operator operatorOperation = Operator.ADD;
-        double num1 = 5;
-        double num2 = 2;
+        int num1 = 10;
+        int num2 = 5;
 
-        switch (operatorOperation){
-            case ADD:
-                System.out.println(num1 + num2);
-                break;
-            case SUBTRACT:
-                System.out.println(num1 - num2);
-                break;
-            case MULTIPLY:
-                System.out.println(num1 * num2);
-                break;
-            case DIVIDE:
-                System.out.println(num1 / num2);
-                break;
+        Operator operator = Operator.MULTIPLY;
 
-        }
+        int result = operator.operatorMat(num1, num2, operator);
+        System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
     }
 
 }
