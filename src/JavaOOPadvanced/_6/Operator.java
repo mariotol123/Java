@@ -4,7 +4,7 @@ public enum Operator {
     ADD, SUBTRACT, MULTIPLY, DIVIDE;
 
 
-    public int operatorMat (int num1, int num2, Operator operator) {
+    public static int operatorMat (int num1, int num2, Operator operator) {
         switch (operator) {
             case ADD:
                 return num1 + num2;

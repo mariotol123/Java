@@ -109,7 +109,7 @@ public class Exercises {
         int num1 = 10;
         int num2 = 5;
 
-        Operator operator = Operator.MULTIPLY;
+        Operator operator = Operator.ADD;
 
         int result = operator.operatorMat(num1, num2, operator);
         System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
