@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_10/Exercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_10/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_9/Exercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaOOPadvanced/_10/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_10/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <recent name="C:\Users\Mario\IdeaProjects\DevelhopeWork\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaOOPadvanced._10.Exercises">
+  <component name="RunManager" selected="Application.JavaOOPadvanced._4.Exercises">
     <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaOOPadvanced._6.Exercises" />
       <module name="DevelhopeWork" />
@@ -131,10 +129,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaOOPadvanced._4.Exercises" />
         <item itemvalue="Application.JavaOOPadvanced._10.Exercises" />
         <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.JavaOOPadvanced._8.Exercises" />
-        <item itemvalue="Application.JavaOOPadvanced._4.Exercises" />
         <item itemvalue="Application.JavaOOPadvanced._5.Exercises" />
       </list>
     </recent_temporary>

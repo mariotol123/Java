@@ -31,12 +31,15 @@ public class Person {
     }
 
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Person person)) return false;
+        return age == person.age && Objects.equals(getName(), person.getName()) && Objects.equals(address, person.address);
+    }
 
     @Override
     public int hashCode() {
-        int result = name.hashCode();
-        result = 31 * result + age;
-        result = 31 * result + address.hashCode();
-        return result;
+        return Objects.hash(getName(), age, address);
     }
 }
