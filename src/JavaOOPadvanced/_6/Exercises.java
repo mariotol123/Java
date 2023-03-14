@@ -68,11 +68,11 @@ public class Exercises {
     private static void exercise3() {
         System.out.println("\nExercise 3: ");
         // Your code here
-        TrafficLight color = TrafficLight.RED;
+        System.out.println(TrafficLight.trafficLightToString(TrafficLight.RED));
 
-        String nextColor = color.getNextColor();
 
-        System.out.println("The next color is: " + nextColor);
+
+
 
 
     }

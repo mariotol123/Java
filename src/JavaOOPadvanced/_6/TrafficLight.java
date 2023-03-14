@@ -1,17 +1,20 @@
 package JavaOOPadvanced._6;
 
 public enum TrafficLight {
-    RED("YELLOW"),
-    YELLOW("GREEN"),
-    GREEN("RED");
+    RED,
+    YELLOW,
+    GREEN;
 
-    private String nextColor;
+    public static TrafficLight trafficLightToString (TrafficLight trafficLight){
+        switch (trafficLight){
+            case RED: return trafficLight.GREEN;
+            case YELLOW: return  trafficLight.RED;
+            case GREEN: return trafficLight.YELLOW;
 
-    TrafficLight(String nextColor) {
-        this.nextColor = nextColor;
+
+        }
+        return trafficLight;
     }
 
-    public String getNextColor() {
-        return nextColor;
-    }
+
 }
