@@ -20,7 +20,7 @@ public class Dog extends Animal{
 
     public double runSpeedMetersPerSecond(){
 
-        return getHeight() * 2;
+        return getHeight()* 2;
     }
 
 

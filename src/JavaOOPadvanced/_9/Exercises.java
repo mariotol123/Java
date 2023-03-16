@@ -22,6 +22,12 @@ public class Exercises {
     private static void exercise1() {
         System.out.println("\nExercise 1: ");
         // Your code here
+       Rettangolo rettangolo = new Rettangolo(4.99, 5.88);
+       System.out.println(rettangolo.calcArea());
+       Circle circle = new Circle(8.99, 10.88);
+       System.out.println(circle.calcArea());
+
+
     }
 
     /**
@@ -37,6 +43,12 @@ public class Exercises {
     private static void exercise2() {
         System.out.println("\nExercise 2: ");
         // Your code here
+        Boat boat = new Boat("Greg", 600.00, 80.00);
+        System.out.println("The boat has a speed of " + boat.moveForward() + "and when it comes back it has a speed of " + boat.moveBackward());
+
+        Car car = new Car("Mercedes", 2300.00, 120.00);
+        System.out.println("The car has a speed of " + car.moveForward() + "and when it comes back it has a speed of " + car.moveBackward());
+
     }
 
     /**
@@ -54,6 +66,11 @@ public class Exercises {
     private static void exercise3() {
         System.out.println("\nExercise 3: ");
         // Your code here
+        Guitar guitar = new Guitar("LaSuola", "Yamaha");
+        Piano piano = new Piano("August Förster", "Yamaha");
+
+        System.out.println(guitar.play());
+        System.out.println(piano.play());
     }
 }
 
