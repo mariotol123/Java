@@ -64,11 +64,11 @@ public class Exercises {
     private static void exercise3() {
         System.out.println("\nExercise 3: ");
         // Your code here
-        BigInteger bigInteger = new BigInteger("1000000000000000000000000000000000000000000000000000000000000000000000000000");
+        BigInteger bigInteger = new BigInteger("100000000000000000000000000");
         BigDecimal bigDecimal = new BigDecimal("123456789.987654321");
 
-        BigInteger bigInteger1 = bigInteger.divide(BigInteger.valueOf(3));
-        BigDecimal bigDecimal1 = bigDecimal.divide(BigDecimal.valueOf(Math.PI).setScale(Integer.MAX_VALUE, RoundingMode.HALF_UP));
+        BigInteger bigInteger1 = bigInteger.divide(new BigInteger("3"));
+        BigDecimal bigDecimal1 = bigDecimal.divide(new BigDecimal(Math.PI),RoundingMode.HALF_UP);
 
 
 

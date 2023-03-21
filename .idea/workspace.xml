@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="644efb9e-8302-4a18-a10c-181887afc349" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_11/Exercises.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_11/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_12/Exercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaOOPadvanced/_9/Playable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_9/Playable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaOOPadvanced/_11/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaOOPadvanced/_11/Exercises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaOOPadvanced._10.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaOOPadvanced._10.Exercises" />
+    <configuration name="JavaOOPadvanced._11.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaOOPadvanced._11.Exercises" />
       <module name="DevelhopeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaOOPadvanced._10.*" />
+          <option name="PATTERN" value="JavaOOPadvanced._11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaOOPadvanced._11.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaOOPadvanced._11.Exercises" />
+    <configuration name="JavaOOPadvanced._12.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaOOPadvanced._12.Exercises" />
       <module name="DevelhopeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaOOPadvanced._11.*" />
+          <option name="PATTERN" value="JavaOOPadvanced._12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,10 +132,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.JavaOOPadvanced._11.Exercises" />
+        <item itemvalue="Application.JavaOOPadvanced._12.Exercises" />
         <item itemvalue="Application.JavaOOPadvanced._9.Exercises" />
         <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.JavaOOPadvanced._4.Exercises" />
-        <item itemvalue="Application.JavaOOPadvanced._10.Exercises" />
       </list>
     </recent_temporary>
   </component>
