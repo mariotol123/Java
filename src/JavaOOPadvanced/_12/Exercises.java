@@ -32,8 +32,7 @@ public class Exercises {
     private static void  exercise1() {
         System.out.println("\nExercise 1: ");
         // Your code here
-        Stream<Integer> evenNumbers = ourNumbers.stream().filter(x -> x % 2 == 0);
-        evenNumbers.forEach(System.out::println);
+        ourNumbers.stream().filter(x -> x % 2 == 0).forEach(System.out::println);
 
 
 
@@ -56,8 +55,8 @@ public class Exercises {
     private static void exercise2() {
         System.out.println("\nExercise 2: ");
         // Your code here
-        Set<Integer> oddNumbers = ourNumbers.stream().filter(p -> p % 2 != 0).collect(Collectors.toSet());
-        oddNumbers.forEach(System.out::println);
+       ourNumbers.stream().filter(p -> p % 2 != 0).collect(Collectors.toSet()).forEach(System.out::println);
+
 
 
     }
@@ -78,6 +77,7 @@ public class Exercises {
         System.out.println("\nExercise 3: ");
         List<String> alice = List.of("Alice", "Bob", "Charlie");
         // Your code here
+        alice.stream().map(c -> c.toUpperCase()).collect(Collectors.toSet()).forEach(System.out::println);
     }
 
     /**
@@ -95,6 +95,7 @@ public class Exercises {
     private static void exercise4() {
         System.out.println("\nExercise 4");
         //Your code here
+        ourNumbers.stream().filter(m -> m % 2 == 0).map(m -> m * 2).collect(Collectors.toSet()).forEach(System.out::println);
     }
 }
 
