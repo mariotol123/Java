@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Assertions;
 
 public class Exercises {
     public static void main(String[] args) {
-        exercise1();
-        exercise2();
-        exercise3();
+       // exercise1();
+       // exercise2();
+         exercise3();
     }
 
     /**
@@ -52,7 +52,7 @@ public class Exercises {
         //Fix this code
 
         String reversed = "";
-        for (int i = input.length() - 1; i >= 0; i--) {
+        for (int i = input.length() - 1; i >= 0; i --) {
             reversed += input.charAt(i);
         }
         return reversed;
@@ -82,4 +82,5 @@ public class Exercises {
         return num > 0;
     }
 }
+
 
